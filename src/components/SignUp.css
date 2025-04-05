@@ -1,0 +1,33 @@
+/* src/components/pages/SignUp.css */
+.signup-container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .signup-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .signup-form button {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .signup-form button:hover {
+    background-color: #256d46;
+  }
+  
