@@ -1,6 +1,3 @@
-if (process.env.NODE_ENV !== "production") {
-  require('dotenv').config();
-}
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import './HeroSection.css';
@@ -8,6 +5,9 @@ import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
 import axios from 'axios';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
+if (process.env.NODE_ENV !== "production") {
+  require('dotenv').config();
+}
 
 const API_URL = process.env.REACT_APP_API_URL;
 

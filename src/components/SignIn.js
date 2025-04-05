@@ -1,12 +1,12 @@
-if (process.env.NODE_ENV !== "production") {
-  require('dotenv').config();
-}
 import React, { useState, useContext } from 'react';
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
 import './SignIn.css';
 import axios from 'axios';
 import { AuthContext } from '../context/AuthContext';
+if (process.env.NODE_ENV !== "production") {
+  require('dotenv').config();
+}
 
 const API_URL = process.env.REACT_APP_API_URL;
 

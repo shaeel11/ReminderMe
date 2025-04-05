@@ -1,11 +1,11 @@
-if (process.env.NODE_ENV !== "production") {
-  require('dotenv').config();
-}
 import React, { useState } from 'react';
 import '../App.css';
 import './SignUp.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+if (process.env.NODE_ENV !== "production") {
+  require('dotenv').config();
+}
 
 const API_URL = process.env.REACT_APP_API_URL;
 
